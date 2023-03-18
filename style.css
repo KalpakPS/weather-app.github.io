@@ -99,7 +99,7 @@ input.search-bar:focus {
 
 footer {
   position:fixed;
-  bottom:0;
+  bottom:2px;
   color: black;
   font-size: 15px;
 }
