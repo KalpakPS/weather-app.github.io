@@ -95,3 +95,40 @@ input.search-bar:focus {
   width: calc(100% - 100px);
   border: 1px solid white;
 }
+
+footer {
+  position:absolute;
+  bottom:0;
+  color: black;
+  height: 50px;   /* Height of the footer */
+  font-size: 15px;
+  
+}
+a {
+ outline: none;
+ text-decoration: none;
+ padding: 2px 1px 0;
+}
+
+a:link {
+ color: #265301;
+}
+
+a:visited {
+ color: #437a16;
+}
+
+a:focus {
+ border-bottom: 1px solid;
+ color: #bae498;
+}
+
+a:hover {
+ border-bottom: 1px solid;
+ color:#cdfeaa;
+}
+
+a:active {
+ background: #265301;
+ color: #cdfeaa;
+}
