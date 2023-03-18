@@ -18,6 +18,7 @@ body {
   width: 100%;
   max-width: 420px;
   margin: 1em;
+  transition: 0.5s;
 }
 
 .search {
@@ -48,8 +49,8 @@ input.search-bar {
   color: white;
   font-family: inherit;
   font-size: 105%;
-  width: calc(52% - 100px);
-  transition: 0.5s
+  width: 63px;
+  transition: 0.5s;
 }
 
 button:hover {
@@ -88,7 +89,7 @@ h1.temp {
 /*new*/
 input.search-bar:hover {
   width: calc(100% - 100px);
-  transition: 0.5s
+  transition: 0.5s;
 }
 
 input.search-bar:focus {
@@ -102,7 +103,6 @@ footer {
   color: black;
   padding: 0.5em 5em;
   font-size: 15px;
-  
 }
 a {
  outline: none;
@@ -126,9 +126,22 @@ a:focus {
 a:hover {
  border-bottom: 1px solid;
  color:#cdfeaa;
+ transition: 0.3s;
 }
 
 a:active {
  color: #265301;
  color: #cdfeaa;
+}
+
+.card:hover{
+  box-shadow: 0 0 30px white;
+  filter: blur(10p);
+  transition: 0.5s;
+}
+
+.card:focus{
+  box-shadow: 0 0 30px white;
+  filter: blur(10p);
+  transition: 0.5s;
 }
